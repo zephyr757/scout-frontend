@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scout Debug Test</title>
+</head>
+<body>
+    <h1>🧪 Scout Debug Test</h1>
+    <div id="test-output"></div>
+    
+    <script>
+        document.getElementById('test-output').innerHTML = `
+            <p>✅ HTML Loading: Working</p>
+            <p>✅ JavaScript: Working</p>
+            <p>🔗 Checking main app...</p>
+        `;
+        
+        // Test if we can reach the main app
+        fetch('/src/main.jsx')
+            .then(response => {
+                if (response.ok) {
+                    document.getElementById('test-output').innerHTML += '<p>✅ Main.jsx: Found</p>';
+                } else {
+                    document.getElementById('test-output').innerHTML += '<p>❌ Main.jsx: Error ' + response.status + '</p>';
+                }
+            })
+            .catch(error => {
+                document.getElementById('test-output').innerHTML += '<p>❌ Fetch Error: ' + error.message + '</p>';
+            });
+    </script>
+</body>
+</html>

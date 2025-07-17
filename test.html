@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout Test</title>
+</head>
+<body>
+    <h1 style="color: #234071; padding: 20px;">🔥 Direct HTML Test - Scout Working!</h1>
+    <p style="padding: 0 20px;">If you see this, the server is running correctly.</p>
+    <div id="root" style="background: #66d1ba; color: white; padding: 10px; margin: 20px;">
+        This is the root div where React should mount
+    </div>
+    <script>
+        console.log('HTML loaded, checking for React...');
+        setTimeout(() => {
+            const root = document.getElementById('root');
+            if (root.innerHTML.includes('Scout')) {
+                console.log('✅ React has mounted');
+            } else {
+                console.log('❌ React has NOT mounted - still showing HTML content');
+            }
+        }, 2000);
+    </script>
+</body>
+</html>

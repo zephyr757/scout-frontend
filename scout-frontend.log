@@ -1,0 +1,137 @@
+
+> scout-frontend@1.0.0 dev
+> vite
+
+
+  VITE v4.5.14  ready in 147 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+Failed to resolve import "../components/StatCard" from "src/pages/Dashboard.jsx". Does the file exist?
+Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+6:21:37 PM [vite] ✨ new dependencies optimized: react-router-dom, @tanstack/react-query, @heroicons/react/24/outline, date-fns, axios
+6:21:37 PM [vite] ✨ optimized dependencies changed. reloading
+6:21:37 PM [vite] Internal server error: Failed to resolve import "../components/StatCard" from "src/pages/Dashboard.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/stephen/scout-project/scout-frontend/src/pages/Dashboard.jsx:12:21
+  26 |  } from "@heroicons/react/24/outline";
+  27 |  import { api } from "../services/api";
+  28 |  import StatCard from "../components/StatCard";
+     |                        ^
+  29 |  import RecentPosts from "../components/RecentPosts";
+  30 |  import LoadingSpinner from "../components/LoadingSpinner";
+      at formatError (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at normalizeUrl (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41845:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41999:47
+      at async Promise.all (index 7)
+      at async TransformContext.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41915:13)
+      at async Object.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+Failed to resolve import "../components/StatCard" from "src/pages/Dashboard.jsx". Does the file exist?
+Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+6:21:37 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /Users/stephen/scout-project/scout-frontend/src/components/index.js:27:15
+  25 |          <div className={`p-3 rounded-lg border ${colorClasses[color] || colorClasses.teal}`}>
+  26 |            <Icon className="w-6 h-6" />
+  27 |          </div>
+     |                ^
+  28 |          <div className="ml-4">
+  29 |            <p className="text-sm font-light text-gray-600">{title}</p>
+      at formatError (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at TransformContext.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41785:22)
+      at async Object.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+6:21:38 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /Users/stephen/scout-project/scout-frontend/src/components/index.js:27:15
+  25 |          <div className={`p-3 rounded-lg border ${colorClasses[color] || colorClasses.teal}`}>
+  26 |            <Icon className="w-6 h-6" />
+  27 |          </div>
+     |                ^
+  28 |          <div className="ml-4">
+  29 |            <p className="text-sm font-light text-gray-600">{title}</p>
+      at formatError (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at TransformContext.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41785:22)
+      at async Object.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+6:21:38 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /Users/stephen/scout-project/scout-frontend/src/components/index.js:27:15
+  25 |          <div className={`p-3 rounded-lg border ${colorClasses[color] || colorClasses.teal}`}>
+  26 |            <Icon className="w-6 h-6" />
+  27 |          </div>
+     |                ^
+  28 |          <div className="ml-4">
+  29 |            <p className="text-sm font-light text-gray-600">{title}</p>
+      at formatError (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at TransformContext.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41785:22)
+      at async Object.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+6:23:54 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /Users/stephen/scout-project/scout-frontend/src/components/index.js:27:15
+  25 |          <div className={`p-3 rounded-lg border ${colorClasses[color] || colorClasses.teal}`}>
+  26 |            <Icon className="w-6 h-6" />
+  27 |          </div>
+     |                ^
+  28 |          <div className="ml-4">
+  29 |            <p className="text-sm font-light text-gray-600">{title}</p>
+      at formatError (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at TransformContext.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41785:22)
+      at async Object.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+6:23:54 PM [vite] Internal server error: Failed to resolve import "../components/StatCard" from "src/pages/Dashboard.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/stephen/scout-project/scout-frontend/src/pages/Dashboard.jsx:12:21
+  26 |  } from "@heroicons/react/24/outline";
+  27 |  import { api } from "../services/api";
+  28 |  import StatCard from "../components/StatCard";
+     |                        ^
+  29 |  import RecentPosts from "../components/RecentPosts";
+  30 |  import LoadingSpinner from "../components/LoadingSpinner";
+      at formatError (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at normalizeUrl (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41845:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41999:47
+      at async Promise.all (index 7)
+      at async TransformContext.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41915:13)
+      at async Object.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+6:23:54 PM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /Users/stephen/scout-project/scout-frontend/src/components/index.js:27:15
+  25 |          <div className={`p-3 rounded-lg border ${colorClasses[color] || colorClasses.teal}`}>
+  26 |            <Icon className="w-6 h-6" />
+  27 |          </div>
+     |                ^
+  28 |          <div className="ml-4">
+  29 |            <p className="text-sm font-light text-gray-600">{title}</p>
+      at formatError (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44066:46)
+      at TransformContext.error (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44062:19)
+      at TransformContext.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:41785:22)
+      at async Object.transform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:44356:30)
+      at async loadAndTransform (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:55088:29)
+      at async viteTransformMiddleware (file:///Users/stephen/scout-project/scout-frontend/node_modules/vite/dist/node/chunks/dep-827b23df.js:64699:32)
+
+Could not open index.js in the editor.
+The editor process exited with an error: spawn code ENOENT.
+
+6:53:08 PM [vite] hmr update /src/pages/Creators.jsx
+6:53:48 PM [vite] hmr update /src/pages/Analytics.jsx

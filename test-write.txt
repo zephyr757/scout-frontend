@@ -1,0 +1,1 @@
+Testing write permissions - this file can be deleted
